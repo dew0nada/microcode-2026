@@ -1,4 +1,4 @@
-file =open('data/in_01.txt', 'r')
+file =open('example.txt', 'r')
 lines = file.read().strip().split('\n')
     
 t = int(lines[0])
@@ -9,4 +9,5 @@ for num in f:
     m = t - num
     if m in fset:
         print(f"sol: {num * m}")
+
         break
