@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    ifstream file("in_01.txt"); 
+    ifstream file("example.txt"); 
     string l;
     getline(file, l);
     long long t = stoll(l);
@@ -65,4 +65,5 @@ int main() {
             }
         }
     }
+
 }
