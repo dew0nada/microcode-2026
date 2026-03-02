@@ -1,4 +1,4 @@
-file = open('in_02.txt', 'r')
+file = open('example.txt', 'r')
 f = file.read().strip()
 
 val = {'A': 247, 'B': 383, 'C': 156, 'D': 512}
@@ -34,3 +34,4 @@ while i < len(f):
         i += 1
     
 print(sum(stack))
+
